@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="portfolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <!-- Primary SEO meta -->
+  <title>Binod Dangi — Senior Flutter Developer</title>
+  <meta name="description"
+        content="Binod Dangi is a Senior Flutter Developer with 4+ years building production-grade cross-platform apps across ride-hailing, food delivery, fintech, e-learning and e-commerce.">
+  <meta name="keywords"
+        content="Binod Dangi, Flutter Developer, Mobile Application Developer, Dart, Clean Architecture, Bloc, Firebase, Kathmandu Nepal">
+  <meta name="author" content="Binod Dangi">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://binoo11.github.io/">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Binod Dangi — Senior Flutter Developer">
+  <meta property="og:description"
+        content="Production-grade cross-platform mobile apps. Flutter, Dart, Clean Architecture, real-time systems.">
+  <meta property="og:image" content="icons/og-image.png">
+  <meta property="og:url" content="https://binoo11.github.io/">
+  <meta property="og:site_name" content="Binod Dangi Portfolio">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Binod Dangi — Senior Flutter Developer">
+  <meta name="twitter:description"
+        content="Production-grade cross-platform mobile apps. Flutter, Dart, Clean Architecture.">
+  <meta name="twitter:image" content="icons/og-image.png">
+
+  <!-- PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Binod Dangi">
+  <meta name="theme-color" content="#0B0F19">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="manifest" href="manifest.json">
+  <!-- JSON-LD structured data for rich results -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Binod Dangi",
+      "jobTitle": "Senior Flutter Developer",
+      "email": "mailto:binoddangi624@gmail.com",
+      "telephone": "+977-9861116780",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kathmandu",
+        "addressCountry": "Nepal"
+      },
+      "url": "https://binoo11.github.io/",
+      "sameAs": [
+        "https://www.linkedin.com/in/binod-dangi-04711619b",
+        "https://github.com/binoo11"
+      ]
+    }
+  </script>
+  <style>
+    /* First-paint loader shown before the Flutter engine boots. */
+    body { margin: 0; background-color: #0B0F19; }
+    #loading {
+      position: fixed; inset: 0; display: flex; align-items: center;
+      justify-content: center; background: #0B0F19; z-index: 9999;
+      transition: opacity .4s ease;
+    }
+    .spinner {
+      width: 46px; height: 46px; border-radius: 50%;
+      border: 3px solid rgba(255,255,255,.12);
+      border-top-color: #6C8CFF; animation: spin 1s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <div id="loading"><div class="spinner"></div></div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var loader = document.getElementById('loading');
+      if (loader) { loader.style.opacity = '0'; setTimeout(function(){ loader.remove(); }, 400); }
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
