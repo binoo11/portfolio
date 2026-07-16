@@ -288,6 +288,8 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
             'In-app voice (WebRTC)',
             'Route visualization',
           ],
+          playStoreUrl: 'https://play.google.com/store/apps/details?id=com.sobij.ride&pcampaignid=web_share&pli=1',
+          appStoreUrl: 'https://apps.apple.com/us/app/safe-ride-365-ride-share-app/id6778983947'
           // TODO: add githubUrl / liveDemoUrl / playStoreUrl / appStoreUrl if available.
         ),
         ProjectItem(
@@ -297,6 +299,7 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
           role: 'Flutter Developer',
           techStack: <String>['Flutter', 'Dart', 'REST APIs', 'AI Integration'],
           features: <String>['Intelligent search', 'Cross-platform UI'],
+          playStoreUrl: 'https://play.google.com/store/apps/details?id=com.zstro.zstroai&hl=en'
           // TODO: add project links if available.
         ),
         ProjectItem(
@@ -316,6 +319,7 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
             'Offline playback',
             'Background downloads',
           ],
+          playStoreUrl: 'https://play.google.com/store/apps/details?id=com.lms.chalkDuster&hl=en'
           // TODO: add project links if available.
         ),
         ProjectItem(
@@ -329,6 +333,8 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
             'Stock dashboards',
             'Expense analytics',
           ],
+          playStoreUrl: 'https://play.google.com/store/apps/details?id=com.ideapreneurnepal.moneymitra&hl=en',
+          appStoreUrl: 'https://apps.apple.com/us/app/money-mitra/id6446030380'
           // TODO: add project links if available.
         ),
         ProjectItem(
@@ -338,6 +344,8 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
           role: 'Mobile Application Developer',
           techStack: <String>['Flutter', 'Firebase', 'REST APIs'],
           features: <String>['Agritech content', 'Localized UX'],
+          playStoreUrl: 'https://play.google.com/store/apps/details?id=com.arthadabali.krishigyan&hl=en',
+          appStoreUrl: 'https://apps.apple.com/us/app/krishi-gyan/id6783942982'
           // TODO: add project links if available.
         ),
       ],
