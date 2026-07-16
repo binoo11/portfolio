@@ -295,7 +295,7 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
         ProjectItem(
           title: 'Zstro AI',
           description:
-          'AI-integrated mobile application combining intelligent search with a Flutter-based cross-platform interface.',
+          'An AI-powered astrology application where users can create their Kundali profile using birth details and chat with an intelligent astrology assistant for personalized insights, guidance, and predictions.',
           role: 'Flutter Developer',
           techStack: <String>['Flutter', 'Dart', 'REST APIs', 'AI Integration'],
           features: <String>['Intelligent search', 'Cross-platform UI'],
@@ -346,6 +346,50 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
           features: <String>['Agritech content', 'Localized UX'],
           playStoreUrl: 'https://play.google.com/store/apps/details?id=com.arthadabali.krishigyan&hl=en',
           appStoreUrl: 'https://apps.apple.com/us/app/krishi-gyan/id6783942982'
+          // TODO: add project links if available.
+        ),
+        ProjectItem(
+          title: 'Smart Dai',
+          description:
+          'A Nepal-based service marketplace platform connecting service providers and customers. The application enables users to discover and access services including mobile and computer repair, barber, beauty, and other local professional services.',
+          role: 'Mobile App Developer',
+          techStack: <String>[
+            'Flutter',
+            'Dart',
+            'REST APIs',
+            'Firebase',
+          ],
+          features: <String>[
+            'Service Provider Marketplace',
+            'Service Booking',
+            'Mobile & Computer Repair Services',
+            'Beauty & Personal Care Services',
+            'Customer-Service Provider Connection',
+          ],
+          playStoreUrl: 'https://play.google.com/store/apps/details?id=com.smartdai_ecomm.smartdai&hl=en',
+          // TODO: add project links if available.
+        ),
+        ProjectItem(
+          title: 'News Agency Nepal (NAN)',
+          description:
+          'A multimedia news platform that delivers trusted news content through articles, videos, audio, photos, and live coverage. The application connects media houses, journalists, and readers with fast and reliable news distribution.',
+          role: 'Mobile App Developer',
+          techStack: <String>[
+            'Flutter',
+            'Dart',
+            'REST APIs',
+            'Firebase',
+            'Video Streaming',
+          ],
+          features: <String>[
+            'Multimedia News Content',
+            'Text, Video, Audio & Photo News',
+            'Live News Coverage',
+            'News API Integration',
+            'Fast News Publishing',
+            'Media Platform Integration',
+          ],
+          playStoreUrl: 'https://play.google.com/store/apps/details?id=com.news.nan&hl=en'
           // TODO: add project links if available.
         ),
       ],
