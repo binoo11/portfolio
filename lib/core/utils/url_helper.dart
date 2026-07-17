@@ -14,6 +14,18 @@ class UrlHelper {
       debugPrint('Could not launch $url');
     }
   }
+  static Future<void> openAsset(String assetPath) async {
+    if (kIsWeb) {
+      // Flutter Web serves assets at /assets/<assetPath>.
+      final Uri uri = Uri.base.resolve('assets/$assetPath');
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    } else {
+      debugPrint(
+        'openAsset is only implemented for web. '
+            'Use openAssetAsFile for mobile/desktop.',
+      );
+    }
+  }
 
   static Future<void> email(String address, {String subject = ''}) async {
     final Uri uri = Uri(
