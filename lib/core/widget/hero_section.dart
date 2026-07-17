@@ -147,7 +147,7 @@ class HeroSection extends StatelessWidget {
               label: AppStrings.downloadResume,
               icon: Icons.download_rounded,
               filled: false,
-              onPressed: () => UrlHelper.open(AppConfig.resumeAssetPath),
+              onPressed: () => UrlHelper.openAsset(AppConfig.resumeAssetPath),
             ),
           ],
         ).animate().fadeIn(delay: 600.ms, duration: 500.ms).slideY(begin: 0.2),
