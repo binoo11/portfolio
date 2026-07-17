@@ -57,6 +57,7 @@ class ProfileModel {
   const ProfileModel({
     required this.name,
     required this.headline,
+    required this.tagline,
     required this.summary,
     required this.yearsExperience,
     required this.social,
@@ -64,6 +65,7 @@ class ProfileModel {
 
   final String name;
   final String headline;
+  final String tagline;
   final String summary;
   final int yearsExperience;
   final SocialLinksModel social;
@@ -75,6 +77,7 @@ class ProfileModel {
   Profile toEntity() => Profile(
     name: name,
     headline: headline,
+    tagline: tagline,
     summary: summary,
     yearsExperience: yearsExperience,
     social: social.toEntity(),

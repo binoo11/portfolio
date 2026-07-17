@@ -24,9 +24,10 @@ class SectionWrapper extends StatelessWidget {
       key: sectionKey,
       width: double.infinity,
       color: background,
-      padding: EdgeInsets.symmetric(
-        horizontal: context.pagePadding,
-        vertical: vertical,
+      padding: EdgeInsets.fromLTRB(
+        context.pagePadding,40,context.pagePadding,vertical
+        // horizontal: context.pagePadding,
+        // vertical: vertical,
       ),
       child: Center(
         child: ConstrainedBox(

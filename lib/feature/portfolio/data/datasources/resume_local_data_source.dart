@@ -21,19 +21,40 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
         name: 'Binod Dangi',
         headline:
         'Senior Flutter Developer  ·  Mobile Application Developer  ·  Flutter Lead Engineer',
+        tagline:
+        'I turn ambitious ideas into fast, polished mobile apps — built to '
+            'scale, engineered to last, and designed to feel effortless in '
+            'every user\'s hand. From real-time systems to offline-first '
+            'architecture, I care about the details most teams skip.',
         summary:
-        'Senior Flutter Developer with 4 years of experience architecting and '
-            'delivering production-grade cross-platform mobile applications for '
-            'Android and iOS across ride-hailing, food delivery, marketplace, '
-            'e-learning, fintech, and e-commerce domains. Deep expertise in Flutter, '
-            'Dart, Kotlin, Clean Architecture, MVVM, Riverpod, and Bloc, combined '
-            'with strong hands-on experience in real-time systems (Socket.IO, WebRTC), '
-            'live GPS tracking, video streaming, offline-first design, and payment '
-            'gateway integrations. Proven track record of leading end-to-end mobile '
-            'product delivery — from architecture design and API collaboration '
-            'through CI/CD automation and App Store / Play Store releases. Adept at '
-            'collaborating with distributed, cross-functional teams and consistently '
-            'delivering scalable, performant, and maintainable mobile applications.',
+        'Ideas are easy. Shipping them — fast, polished, and built to scale — is '
+            'the hard part. That\'s what I do.\n\n'
+            'For 4 years, I\'ve been building production mobile apps across '
+            'ride-hailing, food delivery, fintech, e-learning, and e-commerce. '
+            'Real products. Real users. Real deadlines.\n\n'
+            'Flutter and Dart are my tools of choice, paired with Clean '
+            'Architecture, MVVM, Riverpod, and Bloc to keep things clean as '
+            'projects grow. I like solving the problems that actually matter: '
+            'real-time systems with Socket.IO and WebRTC, live GPS tracking, '
+            'offline-first design, and payment flows that don\'t break under '
+            'pressure.\n\n'
+            'I don\'t stop at writing code. I own architecture, drive API design, '
+            'automate CI/CD, and push releases live on the App Store and Play '
+            'Store — working shoulder-to-shoulder with distributed teams to build '
+            'things worth using.',
+        // summary:
+        // 'Senior Flutter Developer with 4 years of experience architecting and '
+        //     'delivering production-grade cross-platform mobile applications for '
+        //     'Android and iOS across ride-hailing, food delivery, marketplace, '
+        //     'e-learning, fintech, and e-commerce domains. Deep expertise in Flutter, '
+        //     'Dart, Kotlin, Clean Architecture, MVVM, Riverpod, and Bloc, combined '
+        //     'with strong hands-on experience in real-time systems (Socket.IO, WebRTC), '
+        //     'live GPS tracking, video streaming, offline-first design, and payment '
+        //     'gateway integrations. Proven track record of leading end-to-end mobile '
+        //     'product delivery — from architecture design and API collaboration '
+        //     'through CI/CD automation and App Store / Play Store releases. Adept at '
+        //     'collaborating with distributed, cross-functional teams and consistently '
+        //     'delivering scalable, performant, and maintainable mobile applications.',
         yearsExperience: 4,
         social: SocialLinks(
           email: 'binoddangi624@gmail.com',
@@ -351,8 +372,7 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
         ProjectItem(
           title: 'Smart Dai',
           description:
-          'A Nepal-based service marketplace platform connecting service providers and customers. The application enables users to discover and access services including mobile and computer repair, barber, beauty, and other local professional services.',
-          role: 'Mobile App Developer',
+          'A service marketplace platform connecting customers with service providers. Users can discover, book, and manage a wide range of services, including mobile and computer repair, barber, beauty, and other professional services.',          role: 'Mobile App Developer',
           techStack: <String>[
             'Flutter',
             'Dart',
@@ -362,8 +382,6 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
           features: <String>[
             'Service Provider Marketplace',
             'Service Booking',
-            'Mobile & Computer Repair Services',
-            'Beauty & Personal Care Services',
             'Customer-Service Provider Connection',
           ],
           playStoreUrl: 'https://play.google.com/store/apps/details?id=com.smartdai_ecomm.smartdai&hl=en',

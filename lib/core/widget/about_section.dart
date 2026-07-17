@@ -79,10 +79,10 @@ class AboutSection extends StatelessWidget {
             label: 'Companies & roles',
           ),
           const Divider(height: 32),
-          _StatTile(
-            value: projectCount,
+          const _StatTile(
+            value: 20,
             suffix: '+',
-            label: 'Featured projects',
+            label: 'Projects shipped',
           ),
         ],
       ),

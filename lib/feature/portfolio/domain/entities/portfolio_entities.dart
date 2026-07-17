@@ -43,6 +43,7 @@ class Profile extends Equatable {
   const Profile({
     required this.name,
     required this.headline,
+    required this.tagline,
     required this.summary,
     required this.yearsExperience,
     required this.social,
@@ -50,6 +51,7 @@ class Profile extends Equatable {
 
   final String name;
   final String headline;
+  final String tagline;
   final String summary;
   final int yearsExperience;
   final SocialLinks social;
