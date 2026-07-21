@@ -292,7 +292,29 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
       ],
       projects: <ProjectItem>[
         ProjectItem(
-          title: 'Safe Ride',
+          title: 'Himal Ride',
+          description:
+          'Real-time ride-hailing and food delivery platform with live GPS tracking, WebSocket-powered dispatch, and in-app communication.',
+          role: 'Lead Flutter Developer',
+          techStack: <String>[
+            'Flutter',
+            'WebSocket',
+            'WebRTC',
+            'Google Maps SDK',
+            'REST APIs',
+            'Firebase',
+          ],
+          features: <String>[
+            'Real-time ride requests and dispatch',
+            'Live driver and customer location tracking',
+            'Audio calling using WebRTC',
+            'Food delivery management',
+            'Route visualization and navigation',
+          ],
+          playStoreUrl: 'https://play.google.com/store/apps/details?id=janaktech.himalride.user&hl=en',
+        ),
+        ProjectItem(
+          title: 'Safe Ride 365',
           description:
           'Real-time ride-hailing application with live GPS tracking and Socket.IO-powered dispatch.',
           role: 'Lead Flutter Developer',
@@ -306,8 +328,8 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
           features: <String>[
             'Live GPS tracking',
             'Real-time dispatch',
-            'In-app voice (WebRTC)',
             'Route visualization',
+            'In-app voice (WebRTC)',
           ],
           playStoreUrl: 'https://play.google.com/store/apps/details?id=com.sobij.ride&pcampaignid=web_share&pli=1',
           appStoreUrl: 'https://apps.apple.com/us/app/safe-ride-365-ride-share-app/id6778983947'
