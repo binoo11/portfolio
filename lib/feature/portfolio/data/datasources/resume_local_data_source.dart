@@ -314,6 +314,29 @@ class ResumeLocalDataSourceImpl implements ResumeLocalDataSource {
           playStoreUrl: 'https://play.google.com/store/apps/details?id=janaktech.himalride.user&hl=en',
         ),
         ProjectItem(
+          title: 'Himal Driver',
+          description:
+          'Driver application for ride-sharing and food delivery with real-time trip management, live GPS navigation, WebSocket-powered dispatch, and earnings tracking.',
+          role: 'Lead Flutter Developer',
+          techStack: <String>[
+            'Flutter',
+            'WebSocket',
+            'WebRTC',
+            'Google Maps SDK',
+            'REST APIs',
+            'Firebase',
+          ],
+          features: <String>[
+            'Real-time ride and delivery request management',
+            'Live GPS navigation and route optimization',
+            'Audio calling using WebRTC',
+            'Driver earnings and trip history',
+            'Instant ride/order notifications',
+          ],
+          playStoreUrl:
+          'https://play.google.com/store/apps/details?id=janaktech.himalride.driver&hl=en',
+        ),
+        ProjectItem(
           title: 'Safe Ride 365',
           description:
           'Real-time ride-hailing application with live GPS tracking and Socket.IO-powered dispatch.',
